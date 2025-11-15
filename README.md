@@ -17,7 +17,7 @@ There are 20 total aspects, where they act as positive/negative pairs so we have
 
 These then describe aspects as, effectively, 10-dimensional vectors between which we can interpolate. An example interpolating between 2 Hope and 2 Heat can be seen in the figure below:
 
-![alt text](https://github.com/GorillaOfDestiny/Spell-Interpolation/blob/main/plots/InteprolationExample_Annotated.png?raw=true)
+![alt text](https://github.com/GorillaOfDestiny/Spell-Interpolation/blob/main/plots/InteprolationExample_Annotated_NotTransparent.png?raw=true)
 
 What the main file `interpolation.py` does is provide the functions used to calculate the interpolations. Only Cold and Necrotic damage types provide a direct interpolation and so that is the example. This would be boring if that's all we got so we also round to whole numbers and provide the distance to the nearest whole-valued point to the line during interpolation.
 
